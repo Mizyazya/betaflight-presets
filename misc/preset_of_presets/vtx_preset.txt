@@ -1,0 +1,14 @@
+#$ TITLE: VTX 5.8G каналів SA IRC Tramp
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: vtx, vtx_table
+#$ AUTHOR: Mizyazya
+#$ DESCRIPTION: Таблиця для відеопередавача: 
+#$ DESCRIPTION: - SmartAudio IRC Tramp
+#$ DISCUSSION: https://www.victory-drones.com
+#$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
+
+#$ FORCE_OPTIONS_REVIEW: TRUE

@@ -1,0 +1,25 @@
+#$ TITLE: Скидання налаштувань VTX таблиці
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, vtx
+#$ AUTHOR: Mizyazya
+#$ DESCRIPTION: Даний пресет скидає налаштування VTX таблиці
+#$ DISCUSSION: https://www.victory-drones.com
+#$ HIDDEN: true
+
+# -- Встановлення заводських параметрів VTX --
+set vtx_channel = 0
+set vtx_power = 0
+set vtx_low_power_disarm = OFF
+set vtx_freq = 0
+set vtx_pit_mode_freq = 0
+set vtx_halfduplex = ON
+# -- Очистка VTX таблиці --
+vtxtable bands 0
+vtxtable channels 0
+vtxtable powerlevels 0
+vtxtable powervalues
+vtxtable powerlabels

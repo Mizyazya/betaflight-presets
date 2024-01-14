@@ -1,0 +1,304 @@
+#$ TITLE: VD Налаштування 2 Етап
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: 7in, 8in, defaults
+#$ AUTHOR: Mizyazya
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Вітаю! Я інструктор команди VictoryDrones. В даному пресеті ви зможете налаштувати дрон на 2 етап [victory-drones.com](https://www.victory-drones.com)
+#$ DESCRIPTION:
+#$ DESCRIPTION:
+#$ DESCRIPTION: Пресет підходить для цих дронів:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: <img src="https://theuavtech.com/wp-content/uploads/2023/02/10inSuperG.jpg" width="250px"/>
+#$ DESCRIPTION:
+#$ DESCRIPTION: Опис:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: Це стандартні комплексні налаштування дрона, що використовуються на 2 етапі навчання від Victory Drones. За допомогою них, можна зробити стандартні налаштування:
+#$ DESCRIPTION:
+#$ DESCRIPTION:  - Режимів
+#$ DESCRIPTION:  - OSD
+#$ DESCRIPTION:  - Моторів та ESC
+#$ DESCRIPTION:  - BlackBox для запису логів
+#$ DESCRIPTION:  - Приймача
+#$ DESCRIPTION:  - Загальної Конфігурації дрона
+#$ DISCUSSION: https://www.victory-drones.com
+#$ FORCE_OPTIONS_REVIEW: TRUE
+#$ INCLUDE_WARNING: misc/warnings/ua/dshot.txt
+#$ INCLUDE_WARNING: misc/warnings/ua/rpm_filters.txt
+
+#$ OPTION_GROUP BEGIN: Виберіть пункти, які хочете встановити на дрон
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Стандартні налаштування Режимів та OSD
+    #$ OPTION BEGIN (UNCHECKED): Режими
+        # -- Налаштування режимів  --
+        # aux switch settings
+
+        aux 0 0 0 1900 2100 0 0
+        aux 1 1 1 900 1100 0 0
+        aux 2 13 2 1875 2100 0 0
+        aux 3 0 0 900 900 0 0
+        aux 4 0 0 900 900 0 0
+        aux 5 0 0 900 900 0 0
+        aux 6 0 0 900 900 0 0
+        aux 7 0 0 900 900 0 0
+        aux 8 0 0 900 900 0 0
+        aux 9 0 0 900 900 0 0
+        aux 10 0 0 900 900 0 0
+        aux 11 0 0 900 900 0 0
+        aux 12 0 0 900 900 0 0
+        aux 13 0 0 900 900 0 0
+        aux 14 0 0 900 900 0 0
+        aux 15 0 0 900 900 0 0
+        aux 16 0 0 900 900 0 0
+        aux 17 0 0 900 900 0 0
+        aux 18 0 0 900 900 0 0
+        aux 19 0 0 900 900 0 0
+
+        # adjustment ranges
+
+        adjrange 0 0 0 900 900 0 0 0 0
+        adjrange 1 0 0 900 900 0 0 0 0
+        adjrange 2 0 0 900 900 0 0 0 0
+        adjrange 3 0 0 900 900 0 0 0 0
+        adjrange 4 0 0 900 900 0 0 0 0
+        adjrange 5 0 0 900 900 0 0 0 0
+        adjrange 6 0 0 900 900 0 0 0 0
+        adjrange 7 0 0 900 900 0 0 0 0
+        adjrange 8 0 0 900 900 0 0 0 0
+        adjrange 9 0 0 900 900 0 0 0 0
+        adjrange 10 0 0 900 900 0 0 0 0
+        adjrange 11 0 0 900 900 0 0 0 0
+        adjrange 12 0 0 900 900 0 0 0 0
+        adjrange 13 0 0 900 900 0 0 0 0
+        adjrange 14 0 0 900 900 0 0 0 0
+        adjrange 15 0 0 900 900 0 0 0 0
+        adjrange 16 0 0 900 900 0 0 0 0
+        adjrange 17 0 0 900 900 0 0 0 0
+        adjrange 18 0 0 900 900 0 0 0 0
+        adjrange 19 0 0 900 900 0 0 0 0
+        adjrange 20 0 0 900 900 0 0 0 0
+        adjrange 21 0 0 900 900 0 0 0 0
+        adjrange 22 0 0 900 900 0 0 0 0
+        adjrange 23 0 0 900 900 0 0 0 0
+        adjrange 24 0 0 900 900 0 0 0 0
+        adjrange 25 0 0 900 900 0 0 0 0
+        adjrange 26 0 0 900 900 0 0 0 0
+        adjrange 27 0 0 900 900 0 0 0 0
+        adjrange 28 0 0 900 900 0 0 0 0
+        adjrange 29 0 0 900 900 0 0 0 0
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): OSD
+        # -- Налаштування OSD --
+        set osd_units = METRIC
+        set osd_warn_arming_disable = ON
+        set osd_warn_batt_not_full = ON
+        set osd_warn_batt_warning = ON
+        set osd_warn_batt_critical = ON
+        set osd_warn_visual_beeper = ON
+        set osd_warn_crash_flip = ON
+        set osd_warn_esc_fail = ON
+        set osd_warn_core_temp = ON
+        set osd_warn_rc_smoothing = ON
+        set osd_warn_fail_safe = ON
+        set osd_warn_launch_control = ON
+        set osd_warn_no_gps_rescue = ON
+        set osd_warn_gps_rescue_disabled = ON
+        set osd_warn_rssi = OFF
+        set osd_warn_link_quality = OFF
+        set osd_warn_rssi_dbm = OFF
+        set osd_warn_over_cap = OFF
+        set osd_rssi_alarm = 20
+        set osd_link_quality_alarm = 80
+        set osd_rssi_dbm_alarm = -60
+        set osd_cap_alarm = 2200
+        set osd_alt_alarm = 100
+        set osd_distance_alarm = 0
+        set osd_esc_temp_alarm = -128
+        set osd_esc_rpm_alarm = -1
+        set osd_esc_current_alarm = -1
+        set osd_core_temp_alarm = 70
+        set osd_ah_max_pit = 20
+        set osd_ah_max_rol = 40
+        set osd_ah_invert = OFF
+        set osd_logo_on_arming = OFF
+        set osd_logo_on_arming_duration = 5
+        set osd_tim1 = 2560
+        set osd_tim2 = 1
+        set osd_vbat_pos = 2433
+        set osd_rssi_pos = 2113
+        set osd_link_quality_pos = 234
+        set osd_link_tx_power_pos = 234
+        set osd_rssi_dbm_pos = 234
+        set osd_tim_1_pos = 234
+        set osd_tim_2_pos = 2103
+        set osd_remaining_time_estimate_pos = 234
+        set osd_flymode_pos = 2092
+        set osd_anti_gravity_pos = 234
+        set osd_g_force_pos = 234
+        set osd_throttle_pos = 2329
+        set osd_vtx_channel_pos = 2081
+        set osd_crosshairs_pos = 2253
+        set osd_ah_sbar_pos = 206
+        set osd_ah_pos = 2126
+        set osd_current_pos = 2368
+        set osd_mah_drawn_pos = 2336
+        set osd_motor_diag_pos = 234
+        set osd_craft_name_pos = 2380
+        set osd_display_name_pos = 234
+        set osd_gps_speed_pos = 234
+        set osd_gps_lon_pos = 234
+        set osd_gps_lat_pos = 234
+        set osd_gps_sats_pos = 234
+        set osd_home_dir_pos = 234
+        set osd_home_dist_pos = 234
+        set osd_flight_dist_pos = 234
+        set osd_compass_bar_pos = 234
+        set osd_altitude_pos = 18648
+        set osd_pid_roll_pos = 234
+        set osd_pid_pitch_pos = 234
+        set osd_pid_yaw_pos = 234
+        set osd_debug_pos = 234
+        set osd_power_pos = 234
+        set osd_pidrate_profile_pos = 234
+        set osd_warnings_pos = 14601
+        set osd_avg_cell_voltage_pos = 2401
+        set osd_pit_ang_pos = 234
+        set osd_rol_ang_pos = 234
+        set osd_battery_usage_pos = 234
+        set osd_disarmed_pos = 234
+        set osd_nheading_pos = 234
+        set osd_up_down_reference_pos = 205
+        set osd_nvario_pos = 234
+        set osd_esc_tmp_pos = 234
+        set osd_esc_rpm_pos = 234
+        set osd_esc_rpm_freq_pos = 234
+        set osd_rtc_date_time_pos = 234
+        set osd_adjustment_range_pos = 234
+        set osd_flip_arrow_pos = 234
+        set osd_core_temp_pos = 2136
+        set osd_log_status_pos = 234
+        set osd_stick_overlay_left_pos = 234
+        set osd_stick_overlay_right_pos = 234
+        set osd_stick_overlay_radio_mode = 2
+        set osd_rate_profile_name_pos = 234
+        set osd_pid_profile_name_pos = 234
+        set osd_profile_name_pos = 234
+        set osd_rcchannels_pos = 234
+        set osd_camera_frame_pos = 35
+        set osd_efficiency_pos = 234
+        set osd_total_flights_pos = 234
+        set osd_stat_rtc_date_time = OFF
+        set osd_stat_tim_1 = OFF
+        set osd_stat_tim_2 = ON
+        set osd_stat_max_spd = ON
+        set osd_stat_max_dist = OFF
+        set osd_stat_min_batt = ON
+        set osd_stat_endbatt = OFF
+        set osd_stat_battery = OFF
+        set osd_stat_min_rssi = ON
+        set osd_stat_max_curr = ON
+        set osd_stat_used_mah = ON
+        set osd_stat_max_alt = OFF
+        set osd_stat_bbox = ON
+        set osd_stat_bb_no = ON
+        set osd_stat_max_g_force = OFF
+        set osd_stat_max_esc_temp = OFF
+        set osd_stat_max_esc_rpm = OFF
+        set osd_stat_min_link_quality = OFF
+        set osd_stat_flight_dist = OFF
+        set osd_stat_max_fft = OFF
+        set osd_stat_total_flights = OFF
+        set osd_stat_total_time = OFF
+        set osd_stat_total_dist = OFF
+        set osd_stat_min_rssi_dbm = OFF
+        set osd_profile = 1
+        set osd_profile_1_name = -
+        set osd_profile_2_name = -
+        set osd_profile_3_name = -
+        set osd_gps_sats_show_hdop = OFF
+        set osd_displayport_device = AUTO
+        set osd_rcchannels = -1,-1,-1,-1
+        set osd_camera_frame_width = 24
+        set osd_camera_frame_height = 11
+        set osd_stat_avg_cell_value = OFF
+        set osd_framerate_hz = 12
+        set osd_menu_background = TRANSPARENT
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Налаштування ESC (лише 1 значення)
+    #$ OPTION BEGIN (UNCHECKED): DSHOT600 з Bi-Directional комунікацією
+        # -- Налаштування DSHOT600 з Bi-Directional --
+        mixer QUADX
+        mmix reset
+        set motor_pwm_protocol = DSHOT600
+        set motor_poles = 14
+        set dshot_bidir = ON
+        set dyn_notch_count = 1
+        set dyn_notch_q = 500
+        set rpm_filter_min_hz = 70
+        set rpm_filter_harmonics = 3
+    #$ OPTION END
+    
+    #$ OPTION BEGIN (UNCHECKED): DSHOT600
+        # -- Налаштування DSHOT600 --
+        mixer QUADX
+        mmix reset
+        set motor_pwm_protocol = DSHOT600
+        set dshot_bidir = OFF
+        set dyn_notch_count = 3
+        set dyn_notch_q = 300
+    #$ OPTION END   
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Налаштування BlackBox
+    #$ OPTION BEGIN (UNCHECKED): Gyro_Scaled
+        # -- Налаштування BlackBox --
+        set blackbox_sample_rate = 1/4
+        set blackbox_device = SDCARD
+        set debug_mode = GYRO_SCALED
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Налаштування Приймача
+    #$ OPTION BEGIN (UNCHECKED): CRSF/ELRS
+        # -- Налаштування Приймача Crossfire та Express LRS --
+        # -- із включеною телеметрією --
+        set serialrx_provider = CRSF
+        feature TELEMETRY
+
+        # -- Налаштування карти каналів --
+        map AETR1234
+    #$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Загальні налаштування
+    #$ OPTION BEGIN (UNCHECKED): Пресет налаштувань
+        # -- Налаштування вкладки Configuration --
+
+        # -- Налаштування необхідних Features --
+        feature OSD
+        feature AIRMODE
+        # -- Пищалка моторами -- 
+        beacon RX_LOST
+        beacon RX_SET
+        set beeper_dshot_beacon_tone = 4
+        # -- Включення акселерометра та барометра --
+        set acc_hardware = AUTO
+        set baro_hardware = AUTO
+        # -- Виставлення мінімального кута нахилу для запуску звигунів 180 градусів --
+        set small_angle = 180
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): + ServoTilt
+        # -- Увімкнення ServoTilt --
+        feature SERVO_TILT
+    #$ OPTION END
+#$ OPTION_GROUP END

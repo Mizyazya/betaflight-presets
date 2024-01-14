@@ -1,0 +1,80 @@
+#$ TITLE: HGLRC Zeus усі модифікації VTX 5.8G IRC
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: vtx, vtx_table
+#$ AUTHOR: Mizyazya
+#$ DESCRIPTION: - IRC Tramp
+#$ DESCRIPTION:
+#$ DESCRIPTION: - Виберіть лише 1 варіант
+#$ DESCRIPTION:
+#$ DESCRIPTION: Таблиці для відеопередавачів:
+#$ DESCRIPTION:
+#$ DESCRIPTION: - Zeus nano 350mW
+#$ DESCRIPTION: - Zeus 800mW
+#$ DESCRIPTION: - Zeus 2.5W
+#$ DESCRIPTION: - Zeus 1.6W
+#$ DISCUSSION: https://www.victory-drones.com
+#$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
+#$ PARSER: MARKED
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION_GROUP BEGIN: Виберіть 1 варіант
+    #$ OPTION BEGIN (UNCHECKED): nano VTX 350mW
+        # vtxtable
+        vtxtable bands 5
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 4 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 5 IMD6     I CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 25 100 200 400
+        vtxtable powerlabels 25 100 200 350
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): Zeus 800mW
+        # vtxtable
+        vtxtable bands 5
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 4 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 5 IMD6     I CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 5
+        vtxtable powervalues 25 100 200 400 800
+        vtxtable powerlabels 25 100 200 400 800
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): Zeus 2.5W
+        # vtxtable
+        vtxtable bands 5
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable powerlevels 5
+        vtxtable powervalues 25 200 800 1600 2500
+        vtxtable powerlabels 25 200 800 1W6 2W5
+    #$ OPTION END
+
+    #$ OPTION BEGIN (UNCHECKED): Zeus 1.6W
+        # vtxtable
+        vtxtable bands 5
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable powerlevels 4
+        vtxtable powervalues 25 400 800 1600
+        vtxtable powerlabels 25 400 800 MAX
+    #$ OPTION END
+#$ OPTION_GROUP END
