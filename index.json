@@ -697,6 +697,24 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/vtx/PandaRC/pandarc_all.txt",
+      "hash": "cd62f4d7e6619ee39a3e8275938995111883b5401031c0197407b57fa6ac1c2e",
+      "title": "PandaRC усі модифікації VTX 5.8G IRC",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx",
+        "vtx_table"
+      ],
+      "author": "Mizyazya",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushMaxSolo.txt",
       "hash": "98e362cd19dc89797b4902e4222ad310dd909d83db7baaeef8e2fd1142debc00",
       "title": "Rush Max Solo VTX 5.8G 37/48 каналів SA2.1",
@@ -864,7 +882,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/iFlight/Blitz_all.txt",
-      "hash": "e7a13049914c1c475ab8a7aeeabcf34b60be44f644dd86e69f608f160e7d934b",
+      "hash": "0070c046d6d49d169266f492d41f3b2292e51419152e3e941d58ff7e69c97ec4",
       "title": "iFlight Blitz усі модифікації VTX 5.8G/1.2G 1.6W/2.5W IRC",
       "firmware_version": [
         "4.3",
