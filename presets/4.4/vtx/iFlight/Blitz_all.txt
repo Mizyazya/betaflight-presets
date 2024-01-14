@@ -20,8 +20,8 @@
 #$ PARSER: MARKED
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
-#$ OPTION_GROUP BEGIN: 5.8 GHz
-    #$ OPTION BEGIN (UNCHECKED): 1.6 W
+#$ OPTION_GROUP BEGIN: Виберіть 1 варіант
+    #$ OPTION BEGIN (UNCHECKED): 5.8 GHz 1.6 W
         # vtxtable
         vtxtable bands 5
         vtxtable channels 8
@@ -35,7 +35,7 @@
         vtxtable powerlabels 25 400 800 1K6
     #$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): 2.5 W
+    #$ OPTION BEGIN (UNCHECKED): 5.8 GHz 2.5 W
         # vtxtable
         vtxtable bands 5
         vtxtable channels 8
@@ -48,10 +48,8 @@
         vtxtable powervalues 25 400 1000 2500
         vtxtable powerlabels 25 400 1W 2W5
     #$ OPTION END
-#$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: 1.2 GHz
-    #$ OPTION BEGIN (UNCHECKED): 1.6 W
+    #$ OPTION BEGIN (UNCHECKED): 1.2 GHz 1.6 W
         # vtxtable
         vtxtable bands 1
         vtxtable channels 8
