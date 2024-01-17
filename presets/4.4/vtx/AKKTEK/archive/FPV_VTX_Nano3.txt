@@ -1,4 +1,4 @@
-#$ TITLE: AKK Race VTX 5.8G 200mW SA2.1
+#$ TITLE: AKK FPV VTX Nano3 5.8G 200mW SA2.1
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
@@ -6,11 +6,12 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: vtx, vtx_table
 #$ AUTHOR: Mizyazya
-#$ DESCRIPTION: Таблиця для відеопередавача: AKK Race
+#$ DESCRIPTION: Таблиця для відеопередавача: AKK FPV VTX Nano3
 #$ DESCRIPTION: - SmartAudio
 #$ DISCUSSION: https://www.victory-drones.com
 #$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
 #$ PARSER: MARKED
+#$ HIDDEN: TRUE
 
 vtxtable bands 5
 vtxtable channels 8

@@ -226,8 +226,27 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FPV_VTX_Nano3.txt",
-      "hash": "829ce588469368c06f4ad74009577edb63c2d055524b9e7812a120fa557a9dd5",
+      "fullPath": "presets/4.4/vtx/AKKTEK/akk_all.txt",
+      "hash": "26dfc6b2682ff677537086acb29ac81f7f31bf0de66321c98fbc51b24e2a5b9a",
+      "title": "AKK усі модифікації VTX 5.8G SA2.1",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx",
+        "vtx_table"
+      ],
+      "author": "Mizyazya",
+      "force_options_review": true,
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FPV_VTX_Nano3.txt",
+      "hash": "487bdd72b2fc3477494f7cc33f80afaf0d7bc672148b9932e7b84bd7971ff4c0",
       "title": "AKK FPV VTX Nano3 5.8G 200mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -241,11 +260,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX2.txt",
-      "hash": "c139b84b66c86b6d20da6134742288730d2e9052dc5593e2e27197c633540ca7",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX2.txt",
+      "hash": "d4be02cc8f7ce41195dfd62dbc22d7c460070dde52521aed20f73a16a7d5f6e7",
       "title": "AKK FX2 5.8G 800mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -259,11 +279,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX2_Dominator.txt",
-      "hash": "fd99c9cec34092dce9bdd715599c67275951dc2bc50296eb89763a015ed5ea73",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX2_Dominator.txt",
+      "hash": "49aa46792be964d9aabb34651e330d465ad150ad1575997e70ec130ed0317253",
       "title": "AKK FX2 Dominator 5.8G 2W SA2.1",
       "firmware_version": [
         "4.3",
@@ -277,11 +298,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX2_Ultimate.txt",
-      "hash": "a79d9a28f0187eab9c755b7e5c770d0456e1af2991dc9802d40a1f39ff44806a",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX2_Ultimate.txt",
+      "hash": "17c713c9f2a47e7d55cdb35c4189c9f6d42e92dcee865ee20939cf677acf6f5e",
       "title": "AKK FX2 Ultimate 5.8G 1.2W SA2.1",
       "firmware_version": [
         "4.3",
@@ -295,11 +317,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX2_Ultimate_mini.txt",
-      "hash": "af3d7c60b418bcaed687100c688a4c2caa85a0d102920287e521159abb503ee8",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX2_Ultimate_mini.txt",
+      "hash": "e423c84e095fc5cc0e425208ee15273bc605fbb1de351ce7132f818826a7ddf0",
       "title": "AKK FX2 Ultimate mini 5.8G 1.2W SA2.1",
       "firmware_version": [
         "4.3",
@@ -313,11 +336,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX3.txt",
-      "hash": "7b981b8db0fb69da9e12efff7820f01d6208d9754ed472b0497c175f82f09033",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX3.txt",
+      "hash": "bcf5e7d24e36c9c7474eded651c929148cb5dc3836c9f767d487b5fdb089a871",
       "title": "AKK FX3 5.8G 600mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -331,11 +355,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX3_Ultimate.txt",
-      "hash": "9748b0046516cde8472416f998c8ae46836f5024d1d8958bc727ac5e9cbbe667",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX3_Ultimate.txt",
+      "hash": "96f483c05f388386ac2380e089c15a3193fd1a1237dd7387d91eef2e9a606b43",
       "title": "AKK FX3 Ultimate 5.8G 600mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -349,11 +374,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/FX3_Ultimate_DVR.txt",
-      "hash": "e09d5aa52b9b0821dad8eee103659a302209e496d7e714fe743c0b28f8dcc5c2",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/FX3_Ultimate_DVR.txt",
+      "hash": "f3395da76e5dc155b99e3a146e177b81afdf9115df5aa11a657568cb62a96870",
       "title": "AKK FX3 Ultimate DVR 5.8G 1W SA2.1",
       "firmware_version": [
         "4.3",
@@ -367,11 +393,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/Infinite_DVR.txt",
-      "hash": "dfa31fb002e528322c5bfeb2f4f21551b29d91744cf86203804041212d7ccef0",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/Infinite_DVR.txt",
+      "hash": "1cbb23f4a7f636fdfe988a13ce70d224826ec22d890bb5fd16e761cb70ac784f",
       "title": "AKK Infinite DVR 5.8G 1W SA2.1",
       "firmware_version": [
         "4.3",
@@ -385,11 +412,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/NanoRace.txt",
-      "hash": "a56b6b39ac2e0f5d9751be57f49d82711fe81114533d3c1f0ea985c0f9a77f23",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/NanoRace.txt",
+      "hash": "741a216063acc6bdede26885648981e758e7e1d7ece85e9221a5e00edeefe626",
       "title": "AKK Nano Race 5.8G 400mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -403,11 +431,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/NewDual.txt",
-      "hash": "bea94aa6d74c233d0d021d7d89f1a4e2d40de2b15d84f615d3450245605ac0ea",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/NewDual.txt",
+      "hash": "912220f1e5e79be63f75ffe49ccef2ccad70c14e0302fe0a53a57a24af80e7f2",
       "title": "AKK New Dual VTX 5.8G 400mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -421,11 +450,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/Oscars_Backpack.txt",
-      "hash": "d184cb155fd6917f0badc7e82e1ad9de5013843e057d5dcc053a7c4a28c031a5",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/Oscars_Backpack.txt",
+      "hash": "846b620b69d8111f4696818308b4d5609132ed4c150b9464159a889cc6353c7c",
       "title": "AKK Oscar's Backpack 5.8G 200mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -439,11 +469,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/Race.txt",
-      "hash": "2ea2908bfce84be83e127d09b4bf573c9c75e95ecb4607134b671eefb95c077c",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/Race.txt",
+      "hash": "500f5ae26e843302625ad63a148951bd958b2fad46e4b4f5ef7af0348d0c58e3",
       "title": "AKK Race VTX 5.8G 200mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -457,11 +488,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/RaceRanger.txt",
-      "hash": "b992abb13ce6dd9b87fe50b462a4518e226be0fc1656318322173ef1cd0fd2ea",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/RaceRanger.txt",
+      "hash": "28227ad58dd2221b3a6d85930d46f6e6bd02f4b38ac75fd33226fec352348211",
       "title": "AKK Race Ranger 5.8G 1.6W SA2.1",
       "firmware_version": [
         "4.3",
@@ -475,11 +507,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/UltraLongRange.txt",
-      "hash": "a2f0f7c20fde006d47452838c79067aedacc10a839f64bfc8e31596bc49eff61",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/UltraLongRange.txt",
+      "hash": "fbcad4db5d0e1b28e8866046982fd2e79914b228f2689d1b9ddd8515dad16160",
       "title": "AKK Ultra Long Range 5.8G 3W SA2.1",
       "firmware_version": [
         "4.3",
@@ -493,11 +526,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/X2.txt",
-      "hash": "8da76d00d491cee5d4f33758d41db032c1c3600e9099047473c0d81b085769a5",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/X2.txt",
+      "hash": "d8b40002e87c11bad93fba253f080651395b7580fbbdf8d0cae8812c221b2050",
       "title": "AKK X2 5.8G 800mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -511,11 +545,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/X2P.txt",
-      "hash": "32bfcae196f0c760e76dfa5abc7a81993d0a655793bd284f2eb8f253ad13baf1",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/X2P.txt",
+      "hash": "b5a31ef6139db5a476ae244c37322b9f8580d65ddd2931b60af38e9faf9aff61",
       "title": "AKK X2P 5.8G 800mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -529,11 +564,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/X2_Ultimate.txt",
-      "hash": "b9161cbdd8944eac90f72eb5ef28218a8a28b051f534c75132e56baacef67d2f",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/X2_Ultimate.txt",
+      "hash": "23f2bbe112877733ca378f50de6aa4df9161e80fb6e4f117288e8663a7776171",
       "title": "AKK X2 Ultimate 5.8G 1.2W SA2.1",
       "firmware_version": [
         "4.3",
@@ -547,11 +583,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/X5.txt",
-      "hash": "1e35790c88bd4cc2739547fa0d959cc9694ffb558dea3bff78f24a751701441b",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/X5.txt",
+      "hash": "629e7b7ad1dfa38cd826622cfca64e2f4d4890b60cc961b7407cf0dbe5d5c1ef",
       "title": "AKK X5 5.8G 200mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -565,11 +602,12 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/vtx/AKKTEK/X5_Pro.txt",
-      "hash": "7619a0dd2b9ab7cc7a975bc3004779d1871ad921240f6ed3a8a0d02fd9ced078",
+      "fullPath": "presets/4.4/vtx/AKKTEK/archive/X5_Pro.txt",
+      "hash": "03c5ce6a9b0c7d295a0e863fcdb73e27789cfaed35e5e0f5d7e57fb26f5c98a6",
       "title": "AKK X5 Pro 5.8G 200mW SA2.1",
       "firmware_version": [
         "4.3",
@@ -583,6 +621,7 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
+      "hidden": true,
       "priority": 1000000
     },
     {

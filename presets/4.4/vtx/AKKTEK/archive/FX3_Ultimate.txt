@@ -1,4 +1,4 @@
-#$ TITLE: AKK FX3 5.8G 600mW SA2.1
+#$ TITLE: AKK FX3 Ultimate 5.8G 600mW SA2.1
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
@@ -6,11 +6,12 @@
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: vtx, vtx_table
 #$ AUTHOR: Mizyazya
-#$ DESCRIPTION: Таблиця для відеопередавача: AKK FX3
+#$ DESCRIPTION: Таблиця для відеопередавача: AKK FX3 Ultimate
 #$ DESCRIPTION: - SmartAudio
 #$ DISCUSSION: https://www.victory-drones.com
 #$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
 #$ PARSER: MARKED
+#$ HIDDEN: TRUE
 
 vtxtable bands 5
 vtxtable channels 8
