@@ -32,6 +32,9 @@
 #$ DESCRIPTION: - X2P
 #$ DESCRIPTION: - X5 PRO
 #$ DESCRIPTION: - X5
+#$ DESCRIPTION: .
+#$ DESCRIPTION: .
+#$ DESCRIPTION: .
 
 #$ DISCUSSION: https://www.victory-drones.com
 #$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
