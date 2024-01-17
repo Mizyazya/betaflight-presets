@@ -10,14 +10,14 @@
 #$ DISCUSSION: https://www.victory-drones.com
 #$ HIDDEN: true
 
-# -- Встановлення заводських параметрів VTX --
+# -- Defaults vtx parametrs --
 set vtx_channel = 0
 set vtx_power = 0
 set vtx_low_power_disarm = OFF
 set vtx_freq = 0
 set vtx_pit_mode_freq = 0
 set vtx_halfduplex = ON
-# -- Очистка VTX таблиці --
+# -- Clean VTX table --
 vtxtable bands 0
 vtxtable channels 0
 vtxtable powerlevels 0
