@@ -755,8 +755,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushMaxSolo.txt",
-      "hash": "aeb356f1230e9e5056656cbcb247865c55df5562d197a3be766ce4c49f967520",
-      "title": "Rush Max Solo VTX 5.8G 37/48 каналів SA2.1",
+      "hash": "c3d86295042fd38462afcae61ad091127c5890782cbf57dbe34d69241139a4b5",
+      "title": "Rush Max Solo VTX 5.8G 48 каналів SA2.1",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -773,8 +773,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushRace2.txt",
-      "hash": "99641d36984b094d999939ce52140cd124f9957e7c1f4cc338ab241b324ef6cd",
-      "title": "Rush Race 2 VTX 5.8G 37/48 каналів SA2.1",
+      "hash": "7d9290df3bfb49704c610827d1483fb836f2e6f158753e6cb5330ff85396a861",
+      "title": "Rush Race 2 VTX 5.8G 48 каналів SA2.1",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -791,8 +791,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushTankRace.txt",
-      "hash": "cd50ddd0badea0058bb98f4057b193a11a127422ecc0e8ce544fe18f5dd86e8c",
-      "title": "Rush Tank Race VTX 5.8G 37/48 каналів SA2.1",
+      "hash": "76282675a3508776a8a7ab893827766708ab2ffeedee3c543f81b85c6273c353",
+      "title": "Rush Tank Race VTX 5.8G 48 каналів SA2.1",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -809,8 +809,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushTankSolo.txt",
-      "hash": "5779110f8294d9c376fe8d0afa302c93d75c75e960eee8f9cf4b1f3799fbb328",
-      "title": "Rush Tank Solo VTX 5.8G 37/48 каналів SA2.1",
+      "hash": "d156b8cdc2e8e3b9ea1d49405c3a3831d68dbbc44631129a67829794eb9c9db6",
+      "title": "Rush Tank Solo VTX 5.8G 48 каналів SA2.1",
       "firmware_version": [
         "4.3",
         "4.4",
@@ -846,8 +846,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushTinyTank.txt",
-      "hash": "1e50f50da5c83b5c07111460b0bbf2100bf50c2cc03595b67a82d6911642a388",
-      "title": "Rush Tiny Tank VTX 5.8G 37/48 каналів SA2.1",
+      "hash": "59bfafe818776d6564d52c0152e5a6a33f6014656f2d6131daa02995cdc57daf",
+      "title": "Rush Tiny Tank VTX 5.8G 48 каналів SA2.1",
       "firmware_version": [
         "4.3",
         "4.4",

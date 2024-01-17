@@ -1,4 +1,4 @@
-#$ TITLE: Rush Tiny Tank VTX 5.8G 37/48 каналів SA2.1
+#$ TITLE: Rush Tiny Tank VTX 5.8G 48 каналів SA2.1
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
