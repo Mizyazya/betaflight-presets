@@ -644,6 +644,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/vtx/Eachine/eachine_all.txt",
+      "hash": "869265b7dca073295947a5b8762b392aec7679541043f4c9371d9b9f0f914779",
+      "title": "Eachine усі модифікації VTX 5.8 GHz SA2.0/SA2.1/IRC",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx",
+        "vtx_table"
+      ],
+      "author": "Mizyazya",
+      "force_options_review": true,
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.4/vtx/FLYWOO/FLYWOO_goku.txt",
       "hash": "9a8bc5f7490762991c13fb28acf7da011d23045a3737bd6e643049f7bab4d397",
       "title": "FLYWOO GOKU усі модифікації VTX 5.8G IRC",
