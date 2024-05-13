@@ -16,6 +16,7 @@
 feature SERVO_TILT
 
 # serial
+
 serial 0 2048 115200 57600 0 115200
 serial 4 0 115200 57600 0 115200
 
@@ -65,6 +66,7 @@ set osd_avg_cell_voltage_pos = 2400
 set osd_pit_ang_pos = 2240
 set osd_canvas_height = 13
 set debug_mode = GYRO_SCALED
+set rpm_filter_min_hz = 70
 set craft_name = SHRIKE
 
 profile 0
