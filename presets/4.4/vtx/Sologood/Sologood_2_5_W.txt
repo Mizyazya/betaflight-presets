@@ -1,0 +1,28 @@
+#$ TITLE: SoloGood 5.8G 2.5W X Band 64 канали SA
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: vtx, vtx_table
+#$ AUTHOR: Mizyazya
+#$ DESCRIPTION: Таблиця для відеопередавача: SoloGood 2.5W з X каналами
+#$ DESCRIPTION: - SmartAudio
+#$ DISCUSSION: https://www.victory-drones.com
+#$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
+#$ PARSER: MARKED
+
+# vtxtable
+vtxtable bands 8
+vtxtable channels 8
+vtxtable band 1 XBAND    X CUSTOM     0 5020 5050 5080 5110 5140 5170 5200
+vtxtable band 2 BAND_E   E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 3 AIRWAVE  F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 4 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 5 LOWRACE  D CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+vtxtable band 6 BAND_L   L CUSTOM  5333 5373 5413 5453 5493 5533 5573 5613
+vtxtable band 7 BAND_U   U CUSTOM  5325 5348 5366 5384 5402 5420 5438 5456
+vtxtable band 8 BAND_O   O CUSTOM  5474 5492 5510 5528 5546 5564 5582 5600
+vtxtable powerlevels 6
+vtxtable powervalues 25 100 200 400 600 1
+vtxtable powerlabels 25 400 800 1W5 2W5 0MW

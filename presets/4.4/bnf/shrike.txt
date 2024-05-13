@@ -1,0 +1,91 @@
+#$ TITLE: VD SHRIKE (BETA)
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: 7in, 8in, defaults
+#$ AUTHOR: Mizyazya
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: Пресет для шрайків
+#$ DISCUSSION: https://www.victory-drones.com
+
+# feature
+feature SERVO_TILT
+
+# serial
+serial 0 2048 115200 57600 0 115200
+serial 4 0 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# rxfail
+rxfail 3 h
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 400
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 80
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 400
+set acc_calibration = 20,52,3,1
+set blackbox_sample_rate = 1/2
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set failsafe_delay = 200
+set failsafe_throttle_low_delay = 200
+set vbat_min_cell_voltage = 280
+set vbat_warning_cell_voltage = 300
+set force_battery_cell_count = 6
+set beeper_dshot_beacon_tone = 4
+set yaw_motors_reversed = ON
+set small_angle = 180
+set simplified_gyro_filter_multiplier = 80
+set osd_vbat_pos = 2432
+set osd_link_quality_pos = 2071
+set osd_rssi_dbm_pos = 2103
+set osd_tim_2_pos = 2048
+set osd_flymode_pos = 2060
+set osd_throttle_pos = 2361
+set osd_vtx_channel_pos = 18464
+set osd_crosshairs_pos = 2253
+set osd_ah_pos = 2126
+set osd_current_pos = 2368
+set osd_mah_drawn_pos = 2336
+set osd_craft_name_pos = 2411
+set osd_altitude_pos = 18617
+set osd_warnings_pos = 14729
+set osd_avg_cell_voltage_pos = 2400
+set osd_pit_ang_pos = 2240
+set osd_canvas_height = 13
+set debug_mode = GYRO_SCALED
+set craft_name = SHRIKE
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 60
+set dterm_lpf1_dyn_max_hz = 120
+set dterm_lpf1_static_hz = 60
+set dterm_lpf2_static_hz = 120
+set yaw_lowpass_hz = 80
+set i_pitch = 50
+set d_pitch = 37
+set f_pitch = 62
+set i_roll = 47
+set d_roll = 33
+set f_roll = 60
+set i_yaw = 47
+set f_yaw = 60
+set simplified_i_gain = 60
+set simplified_dmax_gain = 30
+set simplified_feedforward_gain = 50
+set simplified_dterm_filter_multiplier = 80
+
+rateprofile 0

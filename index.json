@@ -185,6 +185,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/bnf/shrike.txt",
+      "hash": "9aa7690576e67024c1cfe813d16bb9ea3500b120bff72f5d02be5aba7132bdb0",
+      "title": "VD SHRIKE (BETA)",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "7in",
+        "8in",
+        "defaults"
+      ],
+      "author": "Mizyazya",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/modes/vd_modes.txt",
       "hash": "b539af048ed43f406c426af35ce272026f1bafded94f1e70471e555b977ffa52",
       "title": "VD MODES 2 Етап",
@@ -867,6 +886,24 @@
       "fullPath": "presets/4.4/vtx/RUSHFPV/RushTinyTank.txt",
       "hash": "59bfafe818776d6564d52c0152e5a6a33f6014656f2d6131daa02995cdc57daf",
       "title": "Rush Tiny Tank VTX 5.8G 48 каналів SA2.1",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx",
+        "vtx_table"
+      ],
+      "author": "Mizyazya",
+      "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/vtx/Sologood/Sologood_2_5_W.txt",
+      "hash": "63a5dc812150c953f74ac00acd86b5fd27b48c3cf47061352f260af3249d35e5",
+      "title": "SoloGood 5.8G 2.5W X Band 64 канали SA",
       "firmware_version": [
         "4.3",
         "4.4",
