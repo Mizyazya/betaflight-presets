@@ -43,241 +43,261 @@
 
 #$ OPTION_GROUP BEGIN: Виберіть 1 варіант
     #$ OPTION BEGIN (UNCHECKED): FPV VTX Nano3
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 2
-        vtxtable powervalues 0 1
-        vtxtable powerlabels 25 200
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX2 Dominator
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 250 500 1000 2000
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX2 Ultimate mini
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 600 1200
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX2 Ultimate
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 600 1200
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX2
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 400 800
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX3 Ultimate DVR
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 600 1000
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX3 Ultimate
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 400 600
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): FX3
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 400 600
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Infinite DVR
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 200 600 1000
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Nano Race
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 3
-        vtxtable powervalues 0 1 2
-        vtxtable powerlabels 25 200 400
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): New Dual
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 4
-        vtxtable powervalues 0 1 2 3
-        vtxtable powerlabels 25 50 200 400
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Oscars Backpack
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 2
-        vtxtable powervalues 0 1
-        vtxtable powerlabels 25 200
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Race
-        vtxtable bands 5
-        vtxtable channels 8
-        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
-        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-        vtxtable powerlevels 2
-        vtxtable powervalues 0 1
-        vtxtable powerlabels 25 200
-    #$ OPTION END
-    #$ OPTION BEGIN (UNCHECKED): Race Ranger
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
         vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 2
+        vtxtable powervalues 0 1
+        vtxtable powerlabels 25 200
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX2 Dominator
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 250 500 1000 2000
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX2 Ultimate mini
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 600 1200
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX2 Ultimate
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 600 1200
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX2
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 400 800
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX3 Ultimate DVR
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 600 1000
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX3 Ultimate
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 400 600
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): FX3
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 400 600
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Infinite DVR
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 200 600 1000
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Nano Race
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 3
+        vtxtable powervalues 0 1 2
+        vtxtable powerlabels 25 200 400
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): New Dual
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 4
+        vtxtable powervalues 0 1 2 3
+        vtxtable powerlabels 25 50 200 400
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Oscars Backpack
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 2
+        vtxtable powervalues 0 1
+        vtxtable powerlabels 25 200
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Race
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+        vtxtable powerlevels 2
+        vtxtable powervalues 0 1
+        vtxtable powerlabels 25 200
+    #$ OPTION END
+    #$ OPTION BEGIN (UNCHECKED): Race Ranger
+        vtxtable bands 6
+        vtxtable channels 8
+        vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+        vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+        vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+        vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 4
         vtxtable powervalues 0 1 2 3
         vtxtable powerlabels 200 400 800 1600
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): Ultra Long Range
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 5
         vtxtable powervalues 0 1 2 3 4
         vtxtable powerlabels 250 500 1000 2000 3000
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): X2 Ultimate
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 4
         vtxtable powervalues 0 1 2 3
         vtxtable powerlabels 25 200 600 1200
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): X2
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 4
         vtxtable powervalues 0 1 2 3
         vtxtable powerlabels 25 200 500 800
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): X2P
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 4
         vtxtable powervalues 0 1 2 3
         vtxtable powerlabels 25 200 500 800
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): X5 PRO
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 4
         vtxtable powervalues 0 1 2 3
         vtxtable powerlabels 25 50 100 200
     #$ OPTION END
     #$ OPTION BEGIN (UNCHECKED): X5
-        vtxtable bands 5
+        vtxtable bands 6
         vtxtable channels 8
         vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
         vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 0 5885 5905 0 0
+        vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
         vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
         vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
+        vtxtable band 6 LOWRACE  L CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
         vtxtable powerlevels 4
         vtxtable powervalues 0 1 2 3
         vtxtable powerlabels 25 50 100 200

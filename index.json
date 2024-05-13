@@ -227,7 +227,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/AKKTEK/akk_all.txt",
-      "hash": "eedd2743a3159858a579cfeb4916f24d9fe4fe2db817d922290c31ef80c615ec",
+      "hash": "05573ec07ec6837a0547e6d58e4d614994f16bda15aac4b15cf7093ce532b81d",
       "title": "AKK усі модифікації VTX 5.8G SA2.1",
       "firmware_version": [
         "4.3",
@@ -626,7 +626,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/Diatone/mamba_all.txt",
-      "hash": "7d151f602b205f17aa0a757ef1f16cf8f3b22963ed90e97f566cbfef775de8c2",
+      "hash": "5f35ebe0f97659919a6b513bf8c92ecbdba852f019badf85f8b4834c5b407dca",
       "title": "Diatone Mamba усі модифікації VTX 5.8G IRC",
       "firmware_version": [
         "4.3",
