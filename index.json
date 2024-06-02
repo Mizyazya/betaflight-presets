@@ -938,6 +938,24 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/vtx/SpeedyBee/speedybee_vtx_ultra.txt",
+      "hash": "daafc3ac817608b27752cb8f76111399595df19ab6603e1d44c558e7a675bc0a",
+      "title": "SpeedyBee ULTRA 1.6W VTX 5.8G IRC",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx",
+        "vtx_table"
+      ],
+      "author": "Mizyazya",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.4/vtx/TBS/TBS_Unify_all.txt",
       "hash": "6d2bed757eb4d8861dd1c09d08450800f774129e7d45bb888874888d75c3725a",
       "title": "TBS Unify усі модифікації VTX 5.8G SA2.1",
