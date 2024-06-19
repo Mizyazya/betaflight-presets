@@ -901,6 +901,24 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/vtx/ReadyToSky/readytosky_all.txt",
+      "hash": "6d55fa93e60ae0c98d4b8a69f8283b8c9e75e75357c2e158e49f73dab1f6832d",
+      "title": "ReadyToSky 5.8GHz усі модифікації VTX 5.8G IRC",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "OFFICIAL",
+      "keywords": [
+        "vtx",
+        "vtx_table"
+      ],
+      "author": "Mizyazya",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.4/vtx/Sologood/Sologood_2_5_W.txt",
       "hash": "63a5dc812150c953f74ac00acd86b5fd27b48c3cf47061352f260af3249d35e5",
       "title": "SoloGood 5.8G 2.5W X Band 64 канали SA",
