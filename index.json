@@ -720,7 +720,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/GEPRC/geprc_all.txt",
-      "hash": "7ceb867de520923e5b3a6c9ae15929c78b95727a6bc38532df4fae2510fc7e16",
+      "hash": "b6bf6cd1ecde900897de7522da7dc9e2560ae3bd54c21e84b2eb55e0c0d52371",
       "title": "GEPRC усі модифікації VTX 5.8G IRC",
       "firmware_version": [
         "4.3",
@@ -734,7 +734,6 @@
         "vtx_table"
       ],
       "author": "Mizyazya",
-      "force_options_review": true,
       "priority": 1000000
     },
     {

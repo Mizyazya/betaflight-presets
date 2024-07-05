@@ -16,7 +16,6 @@
 #$ DISCUSSION: https://www.victory-drones.com
 #$ INCLUDE: presets/4.4/vtx/defaults_vtx_table.txt
 #$ PARSER: MARKED
-#$ FORCE_OPTIONS_REVIEW: TRUE
 
 #$ OPTION_GROUP BEGIN: Виберіть 1 варіант
     #$ OPTION BEGIN (CHECKED): RAD VTX 5.8G 1.6W
